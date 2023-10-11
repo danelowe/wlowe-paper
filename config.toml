@@ -33,7 +33,12 @@ title = "Paper"
       unsafe = true
 
 [menu]
-
+ [[menu.main]]
+    identifier = "cloud"
+    name = "cloud"
+    url = "/"
+    weight = 8
+    
   [[menu.main]]
     identifier = "carousel"
     name = "Carousel"
