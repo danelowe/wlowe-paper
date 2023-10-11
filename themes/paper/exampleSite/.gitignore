@@ -24,7 +24,7 @@ _testmain.go
 *.exe
 *.test
 
-/public
-/themes
+# /public
+# /themes
 .DS_Store
 .hugo_build.lock
