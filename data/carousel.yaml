@@ -1,0 +1,9 @@
+images: 
+  - image: /imgs/carousel/godwit1.jpg
+    content_html: "1"
+  - image: /imgs/carousel/godwit4.jpg
+    content_html: "2"
+  - image: /imgs/carousel/whitefacedheron.jpg
+    content_html: "3"
+  - image: /imgs/carousel/gannet-portrait.jpg
+    content_html: "4"
