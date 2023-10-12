@@ -2,7 +2,7 @@ baseURL = ""
 # title = "Hugo Themes"
 author = ""
 copyright = "Copyright © 2008–2019, "
-paginate = 3
+paginate = 6
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
@@ -21,9 +21,9 @@ title = "Paper"
   github = 'nanxiaobei'
   instagram = 'nan.xiaobei'
 
-  avatar = 'nanxiaobei@gmail.com'
-  name = 'Lee'
-  bio = 'Discover fresh context'
+  avatar = ''
+  name = 'DVart'
+  bio = 'Sharing the wonder of the natural world one image at a time.'
 # ------------------------------
 
 # needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
@@ -33,28 +33,37 @@ title = "Paper"
       unsafe = true
 
 [menu]
- [[menu.main]]
-    identifier = "cloud"
-    name = "cloud"
-    url = "/"
-    weight = 8
+ 
     
   [[menu.main]]
-    identifier = "carousel"
-    name = "Carousel"
-    url = "/carousel/"
-    weight = 9
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+
+[[menu.main]]
+    identifier = "portfolio"
+    name = "Portfolio"
+    url = "/portfolio/"
+    weight = 20
+
+ [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 30
 
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 10
+    weight = 40
+
   [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url = "/contact/"
-    weight = 11
+    weight = 50
 
 [taxonomies]
 category = "categories"
@@ -63,10 +72,7 @@ series = "series"
 
 [privacy]
 
-  [privacy.vimeo]
-    disabled = false
-    simple = true
-
+  
   [privacy.twitter]
     disabled = false
     enableDNT = true
@@ -76,9 +82,7 @@ series = "series"
     disabled = false
     simple = true
 
-  [privacy.youtube]
-    disabled = false
-    privacyEnhanced = true
+ 
 
 [services]
 
