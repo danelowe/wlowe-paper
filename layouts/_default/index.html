@@ -56,7 +56,13 @@
   </nav>
   {{ end }}<!---->
   {{ end }}
-  {{ partial "carousel.html" (dict "context" . "items" "1" "height" "50" "unit" "%" "duration" "5000") }}
+
+<!-- the carousel -->
+
+  {{ partial "carousel.html" (dict "context" . "items" "1" "height" "60" "unit" "%" "duration" "5000") }}
+
+
+
   <!-- Disqus -->
   {{ if and site.DisqusShortname (not (eq .Params.comments false)) }}
   <div class="mt-24" id="disqus_thread"></div>

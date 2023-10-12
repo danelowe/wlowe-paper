@@ -17,9 +17,9 @@ title = "Paper"
 [params]
   color = 'linen'
 
-  twitter = 'nanxiaobei'
-  github = 'nanxiaobei'
-  instagram = 'nan.xiaobei'
+  twitter = ''
+  facebook = 'DVArtnz'
+  instagram = 'dva_art_nz/'
 
   avatar = ''
   name = 'DVart'
@@ -72,7 +72,6 @@ series = "series"
 
 [privacy]
 
-  
   [privacy.twitter]
     disabled = false
     enableDNT = true
@@ -82,7 +81,9 @@ series = "series"
     disabled = false
     simple = true
 
- 
+ [privacy.facebook]
+    disabled = false
+    simple = true
 
 [services]
 
@@ -92,3 +93,5 @@ series = "series"
   [services.twitter]
     disableInlineCSS = true
 
+[services.facebook]
+    disableInlineCSS = true
