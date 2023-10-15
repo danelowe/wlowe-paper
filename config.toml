@@ -1,23 +1,23 @@
 baseURL = ""
 # title = "Hugo Themes"
 author = ""
-copyright = "Copyright © 2008–2019, "
+copyright = "Copyright © 2008–2023, "
 paginate = 6
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
-# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+# 
 ignoreErrors = ["error-remote-getjson"]
 
 # ------------------------------
 theme = "paper"
-title = "Paper"
+title = "DVart"
 
 [params]
-  color = 'linen'
+  color = 'wheat'
 
-  twitter = ''
+  # twitter = ''
   facebook = 'DVArtnz'
   instagram = 'dva_art_nz/'
 
@@ -48,9 +48,9 @@ title = "Paper"
     weight = 20
 
  [[menu.main]]
-    identifier = "blog"
+    identifier = "post"
     name = "Blog"
-    url = "/blog/"
+    url = "/post/"
     weight = 30
 
   [[menu.main]]

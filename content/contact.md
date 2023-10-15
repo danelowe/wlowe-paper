@@ -6,5 +6,5 @@ aliases = ["about-us", "about-hugo", "contact"]
 author = "lee.so"
 +++
 
-- [github.com/nanxiaobei](https://github.com/nanxiaobei)
+- [githobei](hub.com/nanxiattps://github.com/nanxiaobei)
 - [lee.so](https://lee.so)

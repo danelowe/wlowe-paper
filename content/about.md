@@ -10,7 +10,7 @@ I am a photographer living in wonderful New Zealand.  I have a passion for shari
 
 Having recently purchased a campervan I am now travelling and re-discovering how wonderful New Zealand is.
 On this site you will find some of my favourite images which are mainly animal related with some landscape / sea scapes as well.
-I will also post the occasional blog of our local travells especially when these ttravels result in memorable images.
+I will also post the occasional blog of our local travells especially when these travels result in memorable images.
 
 I can be found on: <br>
 - facebook at  ...<br>
