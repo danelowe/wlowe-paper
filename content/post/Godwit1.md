@@ -7,4 +7,4 @@ The birds spent most of the time prenning to remove the plumage damaged during t
 
 
 
-![bath time](/imgs/godwit1.jpg)
+![bath time](/imgs/godwit1.jpg?width=200px#center)
