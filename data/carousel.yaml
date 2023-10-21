@@ -1,9 +1,9 @@
 images: 
-  - image: /imgs/carousel/godwit1.jpg
+  - image: imgs/godwit1.jpg
     content_html: "Godwit reflection, Miranda NZ"
-  - image: /imgs/carousel/godwit4.jpg
+  - image: imgs/godwit4.jpg
     content_html: "Godwit bath time"
-  - image: /imgs/carousel/whitefacedheron.jpg
+  - image: imgs/whitefacedheron.jpg
     content_html: "White faced Heron"
-  - image: /imgs/carousel/gannet-portrait.jpg
+  - image: imgs/gannet-portrait.jpg
     content_html: "Australsian Gannet"

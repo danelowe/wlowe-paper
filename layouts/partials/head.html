@@ -41,9 +41,11 @@
   {{ $main := resources.Get "main.css" }}
   <!---->
   {{ $custom := resources.Get "custom.css" }}
+  {{ $carousel := resources.Get "css/carousel.css" }}
   <!---->
-  {{ $css := slice $main $custom | resources.Concat "main.css" | minify }}
+  {{ $css := slice $main $custom $carousel | resources.Concat "main.css" | minify }}
   <link rel="preload stylesheet" as="style" href="{{ $css.Permalink }}" />
+  <link rel="preload stylesheet" as="style" href="{{ $carousel.Permalink}}" />
 
   {{ if and .IsPage (not site.Params.disableHLJS) }}
   <script
